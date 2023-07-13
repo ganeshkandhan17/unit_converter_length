@@ -48,5 +48,5 @@ function convert(){
     if(unin1=="km"&&unin2=="m"){
         ans=input*1000;
     }
-    document.getElementById("ans").innerHTML=ans+""+unin2;
+    document.getElementById("ans").value=ans+""+unin2;
 }

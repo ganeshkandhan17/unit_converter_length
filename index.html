@@ -32,15 +32,18 @@
                 </datalist>
             <input style="margin-top:0px;margin-left:25px;margin-right:25px" type="number" name="a" id="in"><br>
             <h2 style="margin-top:10px;">To</h2>
-            <input style="margin-top: 10px;margin-left:25px; margin-right:25px" type="text" class="koodu" name="convertunit" id="unin2" list="units">
+            <div>
+                <input style="margin-top: 10px;margin-left:25px; margin-right:25px" type="text" class="koodu" name="convertunit" id="unin2" list="units">
                 <datalist id="units">
                     <option value="mm"></option>
                     <option value="cm"></option>
                     <option value="m"></option>
                     <option value="km"></option>
                 </datalist>
-            <h2 class="koodu" id="ans">Ans</h2><br>
-            <button type="submit" onclick="convert()">Convert</button>
+            <input id="ans"style="margin-top: 10px;margin-left:25px; margin-right:25px" readonly><br>
+            </div>
+
+            <button style="margin-top:40px;" type="submit" onclick="convert()">Convert</button>
         </div>
     </div>
     

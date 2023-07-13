@@ -28,7 +28,9 @@ input{
     text-align:center;
     margin-top: 20px;
     border-radius: 10px;
-    height: 35px
+    height: 45px;
+    outline:  solid 1px rgba(0, 0, 255, 0.50);
+    /* width: 50%; */
 }
 button{
     margin-top: 10px;
@@ -44,19 +46,6 @@ button{
 }
 #inline{
     display: inline;
-}
-
-#ans{
-    background-color: white;
-    width: 190px;
-    border:solid black 2px;
-    border-radius: 10px;
-    position: relative;
-    left:50%;
-    transform:translate(-50%);
-    margin-top: 10px;
-    height: 40px;
-    font-size: 30px;
 }
 h4{
     margin-top:10px;
